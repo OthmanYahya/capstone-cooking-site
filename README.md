@@ -1,4 +1,4 @@
-This project was built using React JS with "create-react-app",
+This project was built using React JS with "create-react-app".
 
 The Libraries/dependencies used are Material UI, Splide, Axios, and React-Router-Dom.
 
