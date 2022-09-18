@@ -12,7 +12,8 @@ bugs:-
 Limitations:-
 [Spoonacular ](https://spoonacular.com/food-api) API service provides free users(like myself) with only 150 points for requesting and fetching data from its servers and getting more points per day requires subscribing to their paid service, so if you use the site to the point that it spends150 points in one day, it will stop the data fetching data from the servers for the next 24h.
 
-Notes:
-Because of the limitation mentioned above, I had to store some of the fetched data locally on the user's computer, but it's not for all the components, only the popular and veggie picks on the front page of the website. 
+Notes:-
+-Because of the limitation mentioned above, I had to store some of the fetched data locally on the user's computer, but it's not for all the components, only the popular and veggie picks on the front page of the website. 
 The reason that led me to not store every fetching process locally on the host's computer is the fact that it's not how a realistic website would work, but as long as you use the site while considering the number of recipes you can check, you'll be fine to roam the website freely.
+-This site is responsive and fits all sizes of screens, mobile, iPad, PC screens, and so on...
 
