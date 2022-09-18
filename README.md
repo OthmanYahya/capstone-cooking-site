@@ -1,70 +1,18 @@
-# Getting Started with Create React App
+This project was built using React JS with "create-react-app",
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Libraries/dependencies used are Material UI, Splide, Axios, and React-Router-Dom.
 
-## Available Scripts
+You can check it out [here](https://othman-wecode-capstone.netlify.app/)
 
-In the project directory, you can run:
+This is a cooking recipes website, it has recipes from across the world because it's using [spoonacular](https://spoonacular.com/food-api) API that has a plethora of recipes that you can search and pick from.
 
-### `npm start`
+bugs:-
+[Netlify](https://app.netlify.com) hosting service is breaking the fetching process for some components on the website, but the site works completely fine with no errors if you try to build it locally on your computer.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Limitations:-
+[Spoonacular ](https://spoonacular.com/food-api) API service provides free users(like myself) with only 150 points for requesting and fetching data from its servers and getting more points per day requires subscribing to their paid service, so if you use the site to the point that it spends150 points in one day, it will stop the data fetching data from the servers for the next 24h.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Notes:
+Because of the limitation mentioned above, I had to store some of the fetched data locally on the user's computer, but it's not for all the components, only the popular and veggie picks on the front page of the website. 
+The reason that led me to not store every fetching process locally on the host's computer is the fact that it's not how a realistic website would work, but as long as you use the site while considering the number of recipes you can check, you'll be fine to roam the website freely.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
