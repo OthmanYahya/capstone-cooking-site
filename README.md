@@ -4,7 +4,7 @@ The Libraries/dependencies used are Material UI, Splide, Axios, and React-Router
 
 You can check it out [here](https://othman-wecode-capstone.netlify.app/)
 
-This is a cooking recipes website, it has recipes from across the world because it's using [spoonacular](https://spoonacular.com/food-api) API that has a plethora of recipes that you can search and pick from.
+This is a cooking recipes website, it has recipes from across the world because it's using [Spoonacular](https://spoonacular.com/food-api) API that has a plethora of recipes that you can search and pick from.
 
 bugs:-
 [Netlify](https://app.netlify.com) hosting service is breaking the fetching process for some components on the website, but the site works completely fine with no errors if you try to build it locally on your computer.
