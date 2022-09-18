@@ -12,7 +12,7 @@ bugs:-
 
 Limitations:-
 <br />
-[Spoonacular ](https://spoonacular.com/food-api) API service provides free users(like myself) with only 150 points for requesting and fetching data from its servers and getting more points per day requires subscribing to their paid service, so if you use the site to the point that it spends150 points in one day, it will stop the data fetching data from the servers for the next 24h.
+[Spoonacular ](https://spoonacular.com/food-api) API service provides free users(like myself) with only 150 points for requesting and fetching data from its servers and getting more points per day requires subscribing to their paid service, so if you use the site to the point that it spends 150 points in one day, it will stop fetching data from the servers for the next 24h.
 
 Notes:-
 <br />
