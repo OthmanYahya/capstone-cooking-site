@@ -34,7 +34,7 @@ function Popular() {
             console.log(popular);
         } else {
             try {
-                const response = await axios.get(`https://api.spoonacular.com/recipes/random?apiKey=e8b192f115124219a6ae87a11a7591c8&number=20`);
+                const response = await axios.get(`https://api.spoonacular.com/recipes/random?apiKey=${process.env.REACT_APP_API_KEY}&number=20`);
 
 
                 /* storing the fetched data locally as a JSON file, otherwise it wont work when using it 

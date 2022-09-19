@@ -34,7 +34,7 @@ function Veggie() {
             console.log(veggie);
         } else {
             try {
-                const response = await axios.get(`https://api.spoonacular.com/recipes/random?apiKey=e8b192f115124219a6ae87a11a7591c8&number=20&tags=vegetarian`);
+                const response = await axios.get(`https://api.spoonacular.com/recipes/random?apiKey=${process.env.REACT_APP_API_KEY}&number=20&tags=vegetarian`);
 
                 /* storing the fetched data locally as a JSON file, otherwise it wont work when using it 
                 after storing the fetched data */

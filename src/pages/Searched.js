@@ -18,7 +18,7 @@ function Searched() {
 
     const getSearched = async (name) => {
         try {
-            const response = await axios.get(`https://api.spoonacular.com/recipes/complexSearch?apiKey=e8b192f115124219a6ae87a11a7591c8&number=10&query=${name}`);
+            const response = await axios.get(`https://api.spoonacular.com/recipes/complexSearch?apiKey=${process.env.REACT_APP_API_KEY}&number=10&query=${name}`);
             setSearchedRecipes(response.data.results);
             console.log(searchedRecipes);
         } catch (err) {

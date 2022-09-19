@@ -70,15 +70,15 @@ export default function BasicAppBar() {
       onClose={handleMobileMenuClose}
     >
       <MenuItem>
-        <Link to={'/about'} style={{ textDecoration: 'none', color: 'white' }} >
-          <Button size="large" aria-label="About" color="inherit">
+        <Link to={'/about'} style={{ textDecoration: 'none', color: '#0000', textColor: '#000' }} >
+          <Button size="large" aria-label="About" color="primary">
             <Typography sx={{ marginLeft: '0.25rem', fontWeight: 'bold' }}>About</Typography>
           </Button>
         </Link>
       </MenuItem>
       <MenuItem>
         <Link to={'/contact'} style={{ textDecoration: 'none', color: 'white' }}>
-          <Button size="large" aria-label="Contact Us" color="inherit">
+          <Button size="large" aria-label="Contact Us" color="primary">
             <Typography sx={{ marginLeft: '0.25rem', fontWeight: 'bold' }}>Contact Us</Typography>
           </Button>
         </Link>

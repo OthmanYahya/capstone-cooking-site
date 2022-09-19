@@ -18,7 +18,7 @@ function Cuisine() {
 
     const getCuisine = async (name) => {
         try {
-            const response = await axios.get(`https://api.spoonacular.com/recipes/complexSearch?apiKey=e8b192f115124219a6ae87a11a7591c8&number=10&cuisine=${name}`);
+            const response = await axios.get(`https://api.spoonacular.com/recipes/complexSearch?apiKey=${process.env.REACT_APP_API_KEY}&number=10&cuisine=${name}`);
             setCuisine(response.data.results);
             console.log(cuisine);
         } catch (err) {
@@ -42,7 +42,7 @@ function Cuisine() {
             }}>
                 {cuisine.map((item) => {
                     return (
-                        <Link to={`/recipe/` + item.id} style={{ textDecoration: 'none' }}>
+                        <Link to={`/recipe/` + item.id} key={item.id} style={{ textDecoration: 'none' }}>
                             <Card
                                 sx={{
                                     maxWidth: 490,
